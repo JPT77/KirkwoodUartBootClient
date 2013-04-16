@@ -7,7 +7,7 @@ unit kirkwooduartboot_serial;
 interface
 
 uses
-  Classes, SysUtils, Synaser;
+  Classes, SysUtils, synaser;
 
 type
     TSerial = class

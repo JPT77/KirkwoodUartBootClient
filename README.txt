@@ -1,7 +1,7 @@
 You need fpc to compile this project.
+Just call ./make.sh
 
-The Makefile.fpc's do not yet produce Makefiles that actually build anything.
-So I think you have to install fat lazarus (without the GUI libraries) to build.
+I did not understand the Makefile.fpc concept of lazarus. The Makefile.fpc's I tried did not produce Makefiles that actually build anything.
 
 This project includes: 
 - Doimage ELF i386 binary and source provided by Marvell under GPLv2 (from Netgear ReadyNas DuoV2 GPL sources)

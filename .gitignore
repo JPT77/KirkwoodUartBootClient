@@ -8,7 +8,13 @@ lib/
 # binaries
 *.exe
 kirkwooduartboot
+*.ppu
+*.o
+*.or
 
 # backups
 *.bak
 *~
+
+
+

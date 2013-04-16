@@ -1,0 +1,14 @@
+# (C) JPT 2013, licenced under GPLv2
+
+# Lazarus directories
+backup/
+*.app/
+lib/
+
+# binaries
+*.exe
+kirkwooduartboot
+
+# backups
+*.bak
+*~

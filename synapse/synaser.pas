@@ -337,13 +337,13 @@ type
     procedure LimitBandwidth(Length: Integer; MaxB: integer; var Next: LongWord); virtual;
     procedure SetBandwidth(Value: Integer); virtual;
   public
-    function LockfileName: String; virtual;
     {: data Control Block with communication parameters. Usable only when you
      need to call API directly.}
     DCB: Tdcb;
 {$IFDEF UNIX}
     TermiosStruc: termios;
 {$ENDIF}
+    function LockfileName: String; virtual;
     {:Object constructor.}
     constructor Create;
     {:Object destructor.}
